@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('assets/pexels-miguel-á-padriñán-194096.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.card {
+  padding: 20px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-generate-quote {
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
